@@ -1,0 +1,49 @@
+.appBar .brandButton{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 0, 89);
+}
+.searchBar{
+    margin-left: auto;
+}
+
+.navBarBox .appBar{
+    background-color: #0ff5f5;
+    color: black 
+}
+.toolBar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchInput{
+    border-radius: 10px;
+    height: 30px;
+    
+}
+.navLink{
+   text-decoration: none;
+   color: black;
+}
+
+.appBar .signInButton{
+    margin-right: 15px;
+    margin-left: 10px;
+    
+}
+.appBar .signInButton:hover{
+    background-color: rgb(162, 0, 255);
+    color: black;
+}
+
+@media (max-width:600px){
+    .searchBar{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .appBar .signInButton{
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+}

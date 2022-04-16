@@ -1,0 +1,8 @@
+.page-item a {
+    border: 2px solid rgb(69, 51, 235);
+    margin: 7px;
+}
+
+.page-item a:hover{
+    border:2px solid rgb(68, 0, 255);
+}

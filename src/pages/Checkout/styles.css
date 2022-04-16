@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.cartCard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    
+}
+.cartCard .cartMedia{
+    padding:10px;
+    width:100%;
+    height: 200px;
+    object-fit: contain;
+}
+.prodDesc{
+    padding-left: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.prodDesc .cartTitle{
+    font-family: "Lato";
+    font-size: 20px;
+}
+
+.prodDesc .cartPriceChip{
+    background-color: rgb(255, 174, 0);
+    font-family: "Lato";
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+    width: fit-content;
+}
+.prodDesc .prodQty{
+    font-size: 15px;
+    width: fit-content;
+    margin-top: 20px;
+    background-color: rgb(146, 192, 233);
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.checkout{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cartGrid .checkoutButton{
+    background-color: rgb(255, 213, 0);
+    border-radius: 20px;
+    font-family: "Lato";
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.cartGrid .cartTotal{
+    font-family: "Lato";
+    font-size: 30px;
+    color: rgb(255, 128, 0);
+}
+.cartGrid .cartPrice{
+    margin-top: 10px;
+    font-family: "Lato";
+    font-size: 20px;
+}

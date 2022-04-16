@@ -1,0 +1,62 @@
+.authPaper{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.authForm{
+    height: 100%;
+    margin-top: 20px;
+}
+.authForm .input{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.authForm .signInButton{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.authForm .signInButton:hover{
+    background-color:red;
+}
+.authForm .googleSignInButton{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.authForm .googleSignInButton:hover{
+    background-color: red;
+}
+
+.authPaper .signInTitle{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.authForm .passwordInput{
+    margin-top: 20px;
+}
+
+.authForm .switchButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.authForm .switchButton:hover{
+    background-color: rgb(0, 115, 255);
+    color: white;
+}
+.authPaper .avatar{
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
